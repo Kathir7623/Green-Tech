@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/lllbg"
+    tools:context=".ExtraActivity">
+    <LinearLayout
+        android:id="@+id/doordeliveryll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <EditText
+            android:id="@+id/extrauname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:hint="@string/user_name"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/extraaddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:hint="@string/address"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/extracnum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:hint="@string/for_contact_number"
+            android:textColorHint="@color/white" />
+
+        <Button
+            android:id="@+id/extrabuy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/btbg"
+            android:gravity="center"
+            android:text="@string/order_now"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

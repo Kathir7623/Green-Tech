@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GreenTech</string>
+    <string name="ask">മറ്റെന്തെങ്കിലും ഉൽപ്പന്നം ആവശ്യമുണ്ടെങ്കിൽ ഇവിടെ ചോദിക്കുക</string>
+    <string name="product">ഉൽപ്പന്നം</string>
+    <string name="quantity">അളവ്</string>
+    <string name="for_door_delivery">ഡോർ ഡെലിവറിക്ക്</string>
+    <string name="for_extra_product">അധിക ഉൽപ്പന്നത്തിന്</string>
+    <string name="purchase">വാങ്ങൽ</string>
+    <string name="product_name">ഉത്പന്നത്തിന്റെ പേര്</string>
+    <string name="ask_1">ചോദിക്കുക</string>
+    <string name="user_name">ഉപയോക്തൃ നാമം</string>
+    <string name="address">വിലാസം</string>
+    <string name="for_contact_number">ബന്ധപ്പെടാനുള്ള നമ്പറിനായി</string>
+    <string name="order_now">ഇപ്പൊള് ആജ്ഞാപിക്കുക</string>
+    <string name="email_id">ഇ - മെയിൽ ഐഡി</string>
+    <string name="password">Password</string>
+    <string name="login">ലോഗിൻ</string>
+    <string name="dont_have_an_account">ഒരു അക്കൗണ്ട് ഇല്ല ?</string>
+    <string name="sign_up">സൈൻ അപ്പ് ചെയ്യുക</string>
+    <string name="farmer_name">കർഷകന്റെ പേര്</string>
+    <string name="product_cost_per_kg">ഒരു കിലോ ഉൽപ്പന്നത്തിന്റെ വില</string>
+    <string name="product_total_weight">ഉൽപ്പന്നത്തിന്റെ ആകെ ഭാരം</string>
+    <string name="farmer_contact_number">കർഷകരെ ബന്ധപ്പെടേണ്ട നമ്പർ</string>
+    <string name="submit">സമർപ്പിക്കുക</string>
+    <string name="farmer_email_id">കർഷക ഇമെയിൽ ഐഡി</string>
+    <string name="farmer_password">കർഷക പാസ്‌വേഡ്</string>
+    <string name="farmer_adhar_card_number">കർഷക ആധാർ കാർഡ് നമ്പർ</string>
+    <string name="farmer_address">കർഷകരുടെ വിലാസം</string>
+    <string name="register">രജിസ്റ്റർ ചെയ്യുക</string>
+    <string name="view">കാണുക</string>
+    <string name="law1">കൃഷി വകുപ്പ്, സഹകരണം, കർഷക ക്ഷേമം</string>
+    <string name="law2">കൃഷി മന്ത്രാലയവും കർഷക ക്ഷേമവും</string>
+    <string name="law3"><![CDATA[കൃഷി, സഹകരണം, കർഷകരുടെ വെൽഫെയർ & പുതിയ സംരംഭങ്ങൾ എന്നിവയുടെ വകുപ്പ്]]></string>
+    <string name="farmer">കർഷകൻ</string>
+    <string name="user">ഉപയോക്താവ്</string>
+    <string name="government_schemes">സർക്കാർ പദ്ധതികൾ</string>
+    <string name="update">അപ്ഡേറ്റ് ചെയ്യുക</string>
+    <string name="delete">ഇല്ലാതാക്കുക</string>
+    <string name="mobile_number">മൊബൈൽ നമ്പർ</string>
+    <string name="adhar_card_number">ആധാർ കാർഡ് നമ്പർ</string>
+    <string name="date_of_birth">ജനനത്തീയതി</string>
+    <string name="buy">വാങ്ങാൻ</string>
+    <string name="edit">എഡിറ്റ് ചെയ്യുക</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="settings">ക്രമീകരണങ്ങൾ</string>
+
+    <string-array name="item">
+        <item>ഭാഷ തിരഞ്ഞെടുക്കുക</item>
+        <item>ഇംഗ്ലീഷ്</item>
+        <item>തമിഴ്</item>
+        <item>മലയാളം</item>
+    </string-array>
+
+
+</resources>

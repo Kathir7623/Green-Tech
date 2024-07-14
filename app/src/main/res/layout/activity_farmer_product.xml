@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FarmerProductActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/screenbg"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/productname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/product_name"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/farmername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/farmer_name"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/productcost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:inputType="number"
+            android:hint="@string/product_cost_per_kg"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/productweight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:inputType="number"
+            android:hint="@string/product_total_weight"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/farnernumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:inputType="number"
+            android:hint="@string/farmer_contact_number"
+            android:textColorHint="@color/white" />
+
+        <Button
+            android:id="@+id/submitproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/btbg"
+            android:text="@string/submit"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

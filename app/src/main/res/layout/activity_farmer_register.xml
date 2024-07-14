@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screenbg"
+    tools:context=".FarmerRegister">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/fnameedt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/editbg"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:hint="@string/farmer_name"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/femailedt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/editbg"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:gravity="center"
+
+            android:hint="@string/farmer_email_id"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/fpassedt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/editbg"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_security_black_24dp"
+            android:gravity="center"
+            android:hint="@string/farmer_password"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/fmobileedt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="phone"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/editbg"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_phone_black_24dp"
+            android:gravity="center"
+            android:hint="@string/farmer_contact_number"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/fadharedt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:inputType="number"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/editbg"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_credit_card_black_24dp"
+            android:gravity="center"
+            android:hint="@string/farmer_adhar_card_number"
+            android:textColorHint="@color/white" />
+
+
+        <EditText
+            android:id="@+id/faddressedt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/editbg"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_place_black_24dp"
+            android:gravity="center"
+            android:hint="@string/farmer_address"
+            android:textColorHint="@color/white" />
+
+        <Button
+            android:id="@+id/fregbt"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btbg"
+            android:text="@string/register"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

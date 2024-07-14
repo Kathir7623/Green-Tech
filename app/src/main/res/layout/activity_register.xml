@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/screenbg"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/unameedt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/editbg"
+            android:backgroundTint="@color/white"
+            android:gravity="center"
+            android:hint="@string/user_name"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/emailedt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/editbg"
+            android:backgroundTint="@color/white"
+
+            android:gravity="center"
+            android:hint="@string/email_id"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/passedt"
+            android:layout_width="match_parent"
+
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/editbg"
+            android:backgroundTint="@color/white"
+            android:gravity="center"
+            android:hint="@string/password"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/mobileedt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/editbg"
+            android:backgroundTint="@color/white"
+            android:gravity="center"
+            android:hint="@string/mobile_number"
+            android:inputType="phone"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/adharedt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/editbg"
+            android:backgroundTint="@color/white"
+            android:gravity="center"
+            android:hint="@string/adhar_card_number"
+            android:inputType="number"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/dobedt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/editbg"
+            android:backgroundTint="@color/white"
+           android:inputType="date"
+            android:gravity="center"
+            android:hint="@string/date_of_birth"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/addressedt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/editbg"
+            android:backgroundTint="@color/white"
+
+            android:gravity="center"
+            android:hint="@string/address"
+            android:textColorHint="@color/white" />
+
+        <Button
+            android:id="@+id/regbt"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btbg"
+            android:text="@string/register" />
+
+    </LinearLayout>
+
+</ScrollView>

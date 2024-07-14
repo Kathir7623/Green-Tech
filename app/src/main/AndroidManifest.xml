@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GreenTech"
+        tools:targetApi="31">
+        <activity
+            android:name=".PaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".productupdate"
+            android:exported="false" />
+        <activity
+            android:name=".updatedelete"
+            android:exported="false" />
+        <activity
+            android:name=".Farmer_view"
+            android:exported="false" />
+        <activity
+            android:name=".Farmer_selction"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard_view"
+            android:exported="false" />
+        <activity
+            android:name=".FarmerofferActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OfferAlertActivity"
+            android:exported="true" />
+        <activity
+            android:name=".OfferActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FarmerRegister"
+            android:exported="true" />
+        <activity
+            android:name=".FarmerProductActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FarmerDashboardActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ExtraActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DoorActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AlertActivity"
+            android:exported="true" />
+        <activity
+            android:name=".UserOfferActivity"
+            android:exported="true" />
+        <activity
+            android:name=".UserDashboardActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GovtActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FarmerLoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginScreen"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            -
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
